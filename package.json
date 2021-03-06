@@ -5,9 +5,17 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
+    "test": "eslint --fix .",
     "lint": "ng lint",
     "e2e": "ng e2e"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,tx}": "eslint --fix ."
   },
   "private": true,
   "dependencies": {
