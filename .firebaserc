@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "todo-demo-app-anguar": {
+      "hosting": {
+        "test-angular": [
+          "todo-demo-app-anguar"
+        ]
+      }
+    }
+  }
+}
