@@ -15,7 +15,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,tx}": "eslint --fix"
+    "*.{js,ts}": "eslint --fix"
   },
   "private": true,
   "dependencies": {
