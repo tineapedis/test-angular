@@ -2,4 +2,3 @@ node_modules/
 dist/
 e2e/
 *.spec.ts
-karma.conf.js
