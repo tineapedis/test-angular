@@ -3,12 +3,12 @@ import { AngularFireAuth } from '@angular/fire/auth';
 import firebase from 'firebase/app';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class AuthService {
   user$ = this.ofAuth.user;
 
-  constructor(private ofAuth: AngularFireAuth) { }
+  constructor(private ofAuth: AngularFireAuth) {}
 
   login() {
     this.ofAuth

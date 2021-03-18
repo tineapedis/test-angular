@@ -7,12 +7,9 @@ import { MatInputModule } from '@angular/material/input';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 
-
 @NgModule({
   declarations: [],
-  imports: [
-    CommonModule
-  ],
+  imports: [CommonModule],
   exports: [
     MatToolbarModule,
     MatIconModule,
@@ -20,6 +17,6 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     MatFormFieldModule,
     MatInputModule,
     DragDropModule,
-  ]
+  ],
 })
-export class MaterialModule { }
+export class MaterialModule {}
